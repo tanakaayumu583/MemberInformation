@@ -1,0 +1,20 @@
+/*全要素のマージン・パディングをリセット*/
+* {
+margin:0; padding:0; 		
+}
+.float_r{
+float: right;
+}
+.input_area{
+width:100%;
+margin:0 auto;
+}
+.search_member_info .input_area{
+width:50%;
+}
+
+
+.search_member_info, .member_info{
+width:93%;
+margin:0 auto;
+}

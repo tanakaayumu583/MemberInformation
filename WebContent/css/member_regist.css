@@ -1,0 +1,61 @@
+/*全要素のマージン・パディングをリセット*/
+* {
+margin:0; padding:0; 		
+}
+container{
+display:block;
+width:90%;
+margin:0 auto;
+}
+h2{
+margin-top:20px;
+margin-bottom:20px;
+}
+.colum{
+margin-bottom:40px;
+}
+
+.input_area{
+width:93%;
+margin:0 auto;
+}
+.input_area input, select{
+    padding-top:5px;
+    padding-botom:5px;
+    line-height: 1;
+}
+.button_area{
+text-align: center;
+}
+/*横並び*/
+.float_l{
+float: left;
+}
+.button_area p{
+margin-right:5px;
+}
+
+.button_area p input{
+    width: 130px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #68779a;
+    color:white;
+    background: #4472C4;
+    cursor: pointer;
+}
+.button_area_center{
+  width:fit-content;
+  height: 100px;
+  /* 水平方向の中央揃え */
+  margin: 0 auto;
+}
+.ml_15{
+margin-left:15px;
+}
+/*横並びの解除*/
+.clearfix::after {
+    content:'';
+    display: block; 
+    clear:both;
+}
