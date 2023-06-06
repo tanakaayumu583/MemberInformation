@@ -6,10 +6,7 @@
 <link href="/MemberInformation/css/member_regist.css" rel="stylesheet">
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!-- メッセージ -->
-<c:if test="${errormsg != null }">
-<p 
-
->${errormsg}</p>
+<c:if test="${errormsg != null }"><p>${errormsg}</p>
 </c:if>
 <c:remove var="errormsg" />
 <container>
@@ -41,7 +38,7 @@
 				<p class="float_l ml_15">
 					<select name="birth_year" required>
 						<option value=""></option>
-						<%for (int i = 1990; i <= 2020; i++) {%>
+						<%for (int i = 1920; i <= 2020; i++) {%>
 						<option value="<%=i%>"><%=i%></option>
 						<%}%>
 					</select>年
