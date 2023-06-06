@@ -27,8 +27,9 @@ if (display == false) {
 List<jp.co.aforce.bean.MemberInformationBean> list = (List<jp.co.aforce.bean.MemberInformationBean>) session
 		.getAttribute("search_member_info");
 %>
-<!-- エラーメッセージ -->
-<c:if test="${errormsg != null }">${errormsg}</c:if>
+<!-- メッセージ -->
+<c:if test="${errormsg != null }"><strong style="color:green; ">${errormsg}</strong>
+</c:if>
 <c:remove var="errormsg" />
 <container>
 <div>

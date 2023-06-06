@@ -6,7 +6,7 @@
 <link href="/MemberInformation/css/member_regist.css" rel="stylesheet">
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!-- メッセージ -->
-<c:if test="${errormsg != null }"><p>${errormsg}</p>
+<c:if test="${errormsg != null }"><strong style="color:green; ">${errormsg}</strong>
 </c:if>
 <c:remove var="errormsg" />
 <container>

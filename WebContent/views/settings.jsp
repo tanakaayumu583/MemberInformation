@@ -2,7 +2,12 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <title>会員設定</title>
-<%@include file="../header.html"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
 <div>
 <ul>
 <li><a href="/MemberInformation/views/member_regist.jsp">会員情報登録</a></li>

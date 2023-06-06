@@ -1,7 +1,6 @@
 package jp.co.aforce.message;
 
 /**
- * システムで使用されるメッセージを一元的に定義してある定数クラスです
  * @author Tercel
  */
 public final class Message {
